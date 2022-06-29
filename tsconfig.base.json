@@ -3,6 +3,8 @@
     "module": "esnext",
     "target": "es2017",
     "lib": ["ESNext", "DOM"],
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
